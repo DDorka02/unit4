@@ -8,8 +8,8 @@ QUnit.module("masod", function () {
     });
     
     QUnit.test("Szám: 3", (assert) => {
-        assert.equal(masod(3), 3);
-      }); 
+        assert.equal(masod(1,91,5), 1,91,5);
+      });  
 
     
     
